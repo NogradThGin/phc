@@ -3,3 +3,9 @@
 
 __pycache__
 __pycache__/
+
+dist
+dist/
+
+*.egg-info
+*.egg-info/

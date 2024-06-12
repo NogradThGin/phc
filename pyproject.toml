@@ -3,20 +3,20 @@ requires = ["setuptools>=69.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "example_package_YOUR_USERNAME_HERE"
+name = "phc"
 version = "1.0.0"
 authors = [
   { name="Vincent HURIAUX", email="vincent.huriaux@stormshield.eu" },
 ]
-description = "A small example package"
+description = "Proxmox Home Cloud"
 readme = "README.md"
-requires-python = ">=3.8"
+requires-python = ">=3.12"
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
-    "Operating System :: OS Independent",
+    "Operating System :: Linux",
 ]
 
 [project.urls]
-Homepage = "https://github.com/pypa/sampleproject"
-Issues = "https://github.com/pypa/sampleproject/issues"
+Homepage = "https://github.com/NogradThGin/phc"
+Issues = "https://github.com/NogradThGin/phc/issues"

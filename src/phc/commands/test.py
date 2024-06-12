@@ -1,6 +1,8 @@
-from argparse import ArgumentParser
-from sys      import argv
-from generic  import sjprint
+from ..generic  import sjprint
+
+from argparse   import ArgumentParser
+from sys        import argv
+
 
 def test():
     parser = ArgumentParser(description='Proxmox Home Cloud remote manager', prog=_getframe().f_code.co_name.replace('_', ' '))

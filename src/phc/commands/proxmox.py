@@ -1,8 +1,8 @@
-from generic  import read_config, jprint
-from objects  import *
+from ..generic  import read_config, jprint
+from ..objects  import *
 
-from argparse import ArgumentParser
-from sys      import _getframe
+from argparse   import ArgumentParser
+from sys        import _getframe
 
 conf = read_config()
 

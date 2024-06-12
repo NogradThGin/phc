@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from commands  import *
+from .commands  import *
 from sys       import argv
 
 from argparse  import ArgumentParser, REMAINDER

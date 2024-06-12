@@ -1,9 +1,9 @@
-from generic  import read_config, sjprint
-from objects  import *
+from ..generic  import read_config, sjprint
+from ..objects  import *
 
-from argparse import ArgumentParser
-from sys      import _getframe, argv, stderr
-from time     import sleep
+from argparse   import ArgumentParser
+from sys        import _getframe, argv, stderr
+from time       import sleep
 
 conf = read_config()
 
