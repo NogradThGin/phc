@@ -1,0 +1,31 @@
+tokens:
+  proxmox: PVEAPIToken=root@pam!manager=3f735f5d-d0dd-4e2d-96d1-1cbfc4c178d8
+  ipam: bbfed207069c298396be13acd66594512c370c33
+  dns: QdxWyUcCLxBJMI0PIInIVCwBaw2E207D
+  git: 0dt4MythF3L9TvpkLa92DvwZvW2li_hRavsMNS3FWqM%
+
+entities:
+  proxmox: pve
+  ipam: ipam
+  dns: dns
+  ca: cert
+  git: git
+
+network:
+  domain: local.net
+  gateway: 172.16.255.254
+  dns1: 172.16.255.254
+  dns2: 1.1.1.1
+  ca_cert: /etc/ssl/ca/ca.crt
+  ca_ssh_key: /home/vince/.ssh/id_rsa
+  ca_ssh_user: admin
+  git_ssh_key: /home/vince/.ssh/id_rsa
+  git_ssh_user: root
+
+global:
+  use_network_domain_for_entities: true
+
+vms:
+  # First usable ID in proxmox to create a VM.
+  first_id: 2000
+  last_id: 8000
